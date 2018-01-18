@@ -1,0 +1,18 @@
+/**index.wxss**/
+page{margin:0;padding:0;background:#fff;}
+.container{padding: 0rpx 0;}
+.top{margin-top:50rpx;display:block;text-align:center;}
+.top .topt1{color:#6E6E6F;font-size:40rpx;}
+.top .topt2{margin-top:40rpx;color:#D34141;font-size:50rpx;font-weight:bold;}
+.c0{color:#333}
+.fl{float:left;}
+.invite{margin-top:200rpx;}
+.invite input{border-bottom:1px solid #ccc;padding:5px;}
+.invite button{background-color:#c7000a;color:#fff;margin-top:60rpx;}
+
+.btlogo{position:absolute;bottom:20px;text-align:center;color:#949494;font-size:24rpx;}
+.loadd{width:100%;margin:0 auto;clear:both;}
+.phone{text-align:left;margin-left:30rpx;margin-top:16rpx;}
+.phone view{padding-top:12rpx;}
+.address {clear:both;margin-top:30rpx;font-size:26rpx;}
+.btlogo image{width:115px;height:60px;}

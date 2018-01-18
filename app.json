@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/example/example",
+    "pages/detail_exp/detail_exp",
+    "pages/index/index",
+    "pages/product/product",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#c7000a",
+    "navigationBarTextStyle":"#fff",
+    "navigationBarTitleText":"池田VI设计"
+  }
+}

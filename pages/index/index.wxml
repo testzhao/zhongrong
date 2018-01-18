@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <!--顶部-->
+  <view class="top">
+    <view class="topt1">池田—中国烘培品牌VI设计专家</view>
+    <view class="topt2">创意信使 专注烘培</view>
+  </view>
+  <!--邀请码-->
+  <view class="invite">
+    <input type='text' placeholder="请输入您的邀请码" />
+    <button>查看报价</button>
+  </view>
+  <!--底部-->
+  <view class="btlogo">
+    <view class="loadd">
+      <!--LOGO-->
+      <image class='fl' src='/images/btlogo.png'></image>
+      <!--联系电话-->
+      <view class="phone fl">
+        <view>
+          <text class="c0">咨询热线：</text> 023-68006009</view>
+        <view>
+          <text class="c0">老狼:</text>18623307700</view>
+      </view>
+    </view>
+    <!--地址-->
+    <view class="address">
+      <text class="c0">重庆</text> 渝中区大坪石油路时代天街3号写字楼3608室</view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<!--顶部1-->
+<view class="probg"></view>
+<view class="ptitle">
+  <text class>池田产品报价</text>
+</view>
+<view class="pro" style="height:230px;"></view>
+<!--底部-->
+  <view class="btlogo">
+    <view class="loadd">
+      <!--LOGO-->
+      <image class='fl' src='/images/btlogo.png'></image>
+      <!--联系电话-->
+      <view class="phone fl">
+        <view><text class="c0">咨询热线：</text> 023-68006009</view>
+        <view><text class="c0">老狼:</text>18623307700</view>
+      </view>
+    </view>
+    <!--地址-->
+    <view class="address">
+      <text class="c0">重庆</text> 渝中区大坪石油路时代天街3号写字楼3608室
+    </view>
+  </view>

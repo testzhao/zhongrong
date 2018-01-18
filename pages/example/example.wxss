@@ -1,0 +1,15 @@
+page{background:#F9F9F9;}
+.fl{float:left;}
+.fr{float:right;}
+.wrap{margin:3%;clear:both;overflow:hidden;}
+.exp{width:48%;height:130px;border:1px solid #eee;margin-bottom:2%;background:#fff;text-align:center;position:relative;border-radius:5px;}
+.exp image{width:50%;position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;}
+/*底部*/
+.c0{color:#333}
+.fl{float:left;}
+.btlogo{text-align:center;color:#949494;font-size:24rpx;margin-top:30rpx;margin-bottom:15px;}
+.loadd{overflow:hidden;display:inline-block;}
+.phone{text-align:left;margin-left:30rpx;margin-top:16rpx;}
+.phone view{padding-top:12rpx;}
+.address {clear:both;margin-top:15rpx;font-size:26rpx;}
+.btlogo image{width:115px;height:60px;}

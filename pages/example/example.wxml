@@ -1,0 +1,27 @@
+<view>
+  <image src='/images/al/chitian02.jpg' style='width:100%;' mode="widthFix" ></image>
+</view>
+<!--案例图-->
+<view class="wrap">
+  <block wx:for="{{brand}}">
+    <view class='{{item.float}} exp'><image src='{{item.src}}' mode="widthFix" id="{{item.id}}" bindtap='tapClick'></image></view>
+  </block>
+</view>
+<!--底部-->
+  <view class="btlogo">
+    <view style="text-align:center;">
+      <view class="loadd">
+        <!--LOGO-->
+        <image class='fl' src='/images/btlogo.png'></image>
+        <!--联系电话-->
+        <view class="phone fl">
+          <view><text class="c0">咨询热线：</text> 023-68006009</view>
+          <view><text class="c0">老狼:</text>18623307700</view>
+        </view>
+      </view>
+      </view>
+    <!--地址-->
+    <view class="address">
+      <text class="c0">重庆</text> 渝中区大坪石油路时代天街3号写字楼3608室
+    </view>
+  </view>

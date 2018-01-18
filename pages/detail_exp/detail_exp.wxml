@@ -1,0 +1,45 @@
+<!--pages/detail_exp/detail_exp.wxml-->
+<block wx:for="{{caseArray}}" >
+<view class="{{item.showCs?'show':'hide'}}" id="{{item.id}}">
+  <view class="clear ">
+    <view class='fl logo'><image src='{{item.logo}}' mode='widthFix'></image></view>
+    <view class='fr recommend'>
+      <text class="t1">{{item.name}}</text>
+      <text class="t1 brand">{{item.ename}}</text>
+      <text class="t1">{{item.add}}</text>
+      <text class="t1">{{item.tip}}</text>
+      <text class="blank"> </text>
+      <text>{{item.txt1}}</text>
+      <text>{{item.txt2}}</text>
+      <text>{{item.txt3}}</text>
+      <text>{{item.txt4}}</text>
+      <text>{{item.txt5}}</text>
+      <text>{{item.txt6}}</text>
+      <text>{{item.txt7}}</text>
+    </view>
+  </view>
+  <!--图片-->
+  <view class='showimg'>
+    <image src='{{item.img1}}' mode='widthFix' style='width:100%;'></image>
+    <image src='{{item.img2}}' mode='widthFix' style='width:100%;'></image>
+  </view>
+</view>
+</block>
+<!--底部-->
+  <view class="btlogo">
+    <view style="text-align:center;">
+      <view class="loadd">
+        <!--LOGO-->
+        <image class='fl' src='/images/btlogo.png'></image>
+        <!--联系电话-->
+        <view class="phone fl">
+          <view><text class="c0">咨询热线：</text> 023-68006009</view>
+          <view><text class="c0">老狼:</text>18623307700</view>
+        </view>
+      </view>
+      </view>
+    <!--地址-->
+    <view class="address">
+      <text class="c0">重庆</text> 渝中区大坪石油路时代天街3号写字楼3608室
+    </view>
+  </view>

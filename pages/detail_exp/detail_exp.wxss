@@ -1,0 +1,25 @@
+/* pages/detail_exp/detail_exp.wxss */
+page{width:96%;margin:2%;color:#555;font-size:24rpx;}
+.fl{float:left;}
+.fr{float:right;}
+.show{display:block;}
+.hide{display:none;}
+.clear{clear:both;overflow:hidden;}
+.logo{width:40%;}
+.logo image{width:100%;}
+.recommend{width:50%;}
+.recommend text{display:block; line-height:40rpx;}
+.t1{color:#000;font-weight:bold;}
+.blank{padding-top:20rpx;}
+.brand{padding-left:50rpx;}
+.showimg{margin-top:60rpx;}
+.showimg image{margin-bottom:4rpx;}
+/*底部*/
+.c0{color:#333}
+.fl{float:left;}
+.btlogo{text-align:center;color:#949494;font-size:24rpx;margin-top:30rpx;margin-bottom:15px;}
+.loadd{overflow:hidden;display:inline-block;}
+.phone{text-align:left;margin-left:30rpx;margin-top:16rpx;}
+.phone view{padding-top:12rpx;}
+.address {clear:both;margin-top:15rpx;font-size:26rpx;}
+.btlogo image{width:115px;height:60px;}
